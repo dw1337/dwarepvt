@@ -1,6 +1,6 @@
 <?php
 $ini = parse_ini_file('config.ini');
-$link = mysqli_connect($ini['db_host'],$ini['db_user'],$ini['db_password']);
+$link = mysqli_connect($ini['sql12.freemysqlhosting.net'],$ini['sql12267421'],$ini['Yx4Y11risK']);
 $database = mysqli_select_db($link,$ini['db_name']);
 
 $user = $_GET['username'];
